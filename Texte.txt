@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=PkZNo7MFNFg
+
+Data Types[7] : En informatique, les data sont ce qui a du sens pour l'ordintaeur.
+undefined, null, bolean, string, symbol, number and object
+undefined : variable non définie
+null: définie quelque chose comme n'étant "rien"
+boolean: vrai ou faux
+symbol: valeur immuable (qui ne change pas) qui est unique
+number: chiffres/nombres
+object: entreposer un grand nombre de valeurs clés différentes
+
+float: nombre avec chiffres décimaux (0.001)
+remainder(reste) : % 
+
+On implemente souvent des datas dans une variable.
+Une variable est comme une boîte qu'on peut remplir des datas que l'on veut
+
+pour déclarer une variable :
+var utilisatble dans tout le programme / let utilisable seulement dans la zone ou on la declare / const une varible qui ne changera jamais 
+
