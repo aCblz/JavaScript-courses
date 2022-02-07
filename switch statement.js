@@ -88,4 +88,37 @@ function isLess(a, b) {
 function isLess(a, b) {
     return a < b;
 }
-console.log(isLess(10, 15));
+console.log(isLess(10, 15)); // Check si 10 est plus petit que 15 
+// Card Counting
+/* Compteur de cartes blackjack, can on a une carte faible le compteur monte et quand on a une carte élevée le compteur descend,
+si c'est une carte moyenne le compteur reste le même, quand le compteur est positif le joueur doit miser 'élevé' et quand le compteur
+est 0 ou négatif, le joueur doit miser 'low' */
+var count = 0;
+
+function cc(card) {
+    switch(card) {
+        case 2: 
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            count++;
+            break;
+        case 10: 
+        case "J":
+        case "Q":
+        case "K":
+        case "A":
+            count--;
+            break;
+    }
+
+    var holdbet = 'Hold'
+    if (count > 0) {
+        holdbet = 'Bet'
+    }
+
+    return count + " " + holdbet;
+}
+cc(2); cc(3); cc(7); cc('K'); cc('A'); 
+console.log(cc(4))
