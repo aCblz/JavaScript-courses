@@ -1,6 +1,6 @@
 // -------------------------------------------------------------------------------------------------------------------------------------- //
-// LES OPPERATEURS : Boléens : true false / Egalité : == / Strictement Egal : === / Inégalité : != / Strictement Inégal : !== / Plus grand que : > 
-// Plus petit que : < / Oppérateur logique "And", "Et" : && / Oppérateur logique "Or", "Ou" : || /  
+// LES OPPERATEURS : Boléens : true false / Egalité : == / Strictement Egal : === / Inégalité : != / Strictement Inégal : !== /
+// Plus grand que : > / Plus petit que : < / Oppérateur logique "And", "Et" : && / Oppérateur logique "Or", "Ou" : || /  
 // Les oppérateurs booléens ( booleans )
 // true : on
 // false : off
